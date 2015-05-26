@@ -22,7 +22,7 @@ var text = {
 		+ "\tcontact: say hey\n"
 	},
 	notRight: "Oops, that's not a valid command... try '?'\n",
-	brandon: "I'm a high schooler. I like to code. I do a lot of JS and web dev. I do some NLP/ML research. \n"
+	brandon: "Stanford I like to code. I do a lot of JS and web dev. I do some NLP/ML research. \n"
 					 + "I try to learn new stuff as much as possible. dancing is fun. I enjoy freestyling.\n" 
 					 + "I pop and wave but try to incorporate other styles (i.e. bboy, turf, krump). \n"
 					 + "I like to write too. Check out my <a href='http://blog.brandontruong.com'>blog</a>!\n"
@@ -30,13 +30,13 @@ var text = {
 	workObj: [
 		{
 			name: "Growth Hacker/Developer", 
-			company: "apptopia",
+			company: "Apptopia",
 			url: "http://www.apptopia.com",
 			time: "Summer 2014"
 		},
 		{
 			name: "Full Stack Javascript Engineer",
-			company: "admithub",
+			company: "AdmitHub",
 			url: "http://www.admithub.com",
 			time: "May 2014 -> Present"
 		},
@@ -46,10 +46,11 @@ var text = {
 			url: "http://www.cse.unt.edu/~ccaragea/research.html",
 			time: "November 2013 -> Present"
 		},
-		// {
-		// 	name: "CTO",
-		// 	company: "Rigg-r"
-		// },
+		{
+			name: "CTO",
+			company: "Rigg-r",
+			url: "http://rigg-r.com"
+		},
 		{
 			name: "Summer Web Developer",
 			company: "Atomic Design & Consulting",
@@ -111,6 +112,11 @@ var text = {
 	},
 	projObj: [
 	{
+		name: "Bayesian Classification of Tweets During Natural Disasters",
+		url: "https://www.asis.org/asist2014/proceedings/submissions/posters/349poster.pdf"
+		description: "I led an NLP/ML research project with Dr. Caragea at UNT."
+	}
+	{
 		name: "EnergyPal",
 		url: "https://play.google.com/store/apps/details?id=com.ionicframework.energypal312399",
 		description: "Energy monitoring system. Won Grand Prize in Energy Vertical at NTx Apps Challenge."	
@@ -143,7 +149,7 @@ var text = {
 	{
 		name: "GitHub",
 		url: "https://github.com/btroo",
-		description: "A few misc. projects and some listed above" 
+		description: "Look at all my open source (some listed above)" 
 	}
 	], 		 
 	projects: function(){
