@@ -92,7 +92,7 @@ var text = {
 	},
 	{
 		position: "Vice President",
-		organization: "cso",
+		organization: "CSO",
 		url: "http://tamscompsci.com/"
 	}
 	],
