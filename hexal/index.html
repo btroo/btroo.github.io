@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Hexal</title>
+                <meta name='keywords' content="design, color, matching, color chooser, minimalism, minimalist">     
+        	<meta name='Decription' content="Minimalist color matching.">
+                
+                
+                
+		<link rel="stylesheet" href="./style.css">
+		
+		
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+                <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate 	Google Chrome Frame</a> to improve your experience.</p>
+            <![endif]-->
+           
+            		<div id="info">
+            			<nav id="infonav">
+            				<ul>
+            					<li><a href="#" id="aboutButton">About</a></li>
+            					<li><a href="#" id="submitButton">Submit</a></li>
+            					<li><a href="#" id="contactButton">Contact</a></li>
+            				</ul>
+            			</nav>
+            			<div id="maininfo">
+                                        <section id="about" class="stuff">
+                                            Hexal Co. helps you match colors in your wardrobe. Start by clicking a triangle to view various color schemes that work, which are based off of top fashion collections and lookbooks. To return to the main page, click the colored triangle that you chose in the upper left hand corner. 
+                                        </section>
+                                        <section id="submit" class="stuff">
+                                            Submit something?
+                                        </section>
+                                        <section id="contact" class="stuff">
+                                            Hexal was designed and developed by Brandon Truong. For any inquiries, please contact <br> me@brandontruong.com
+                                        </section>
+                                  
+                            </div>
+
+            			</div>
+            		
+                <div id="centered">
+                    <img id='logo' src='./hexal_logo.png'></img>
+                    <p id="introText">Hexal helps you match the colors of your clothes. <br> Tap a triangle to get started</p>
+                    <canvas id="canvas"></canvas>
+                </div>
+                
+                <script src="http://cdnjs.cloudflare.com/ajax/libs/ocanvas/2.2.1/ocanvas.min.js"></script>
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+                <script type="text/javascript">
+                        $("#about").show();
+                        $("#submit").hide();
+                        $("#contact").hide();
+                        function nav(show, hide1, hide2) {
+                            $(show).show();
+                            $(hide1).hide();
+                            $(hide2).hide();
+                        }
+                        $("#aboutButton").click(function() {
+                            nav("#about", "#submit", "#contact");
+                        });
+                        $("#submitButton").click(function() {
+                            nav("#submit", "#about", "#contact");
+                        });
+                        $("#contactButton").click(function(){
+                            nav("#contact", "#about", "#submit");
+                        });
+
+                </script>
+                <script src="./main.js"></script>
+		
+	</body>
+</html>
