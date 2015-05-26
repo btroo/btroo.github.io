@@ -113,9 +113,9 @@ var text = {
 	projObj: [
 	{
 		name: "Bayesian Classification of Tweets During Natural Disasters",
-		url: "https://www.asis.org/asist2014/proceedings/submissions/posters/349poster.pdf"
+		url: "https://www.asis.org/asist2014/proceedings/submissions/posters/349poster.pdf",
 		description: "I led an NLP/ML research project with Dr. Caragea at UNT."
-	}
+	},
 	{
 		name: "EnergyPal",
 		url: "https://play.google.com/store/apps/details?id=com.ionicframework.energypal312399",
