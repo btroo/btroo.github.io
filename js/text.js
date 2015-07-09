@@ -136,7 +136,18 @@ var text = {
 		name: "AdmitHub",
 		url: "https://github.com/AndrewMagliozzi/Admit",
 		description: "Get your college application reviewed by former admin officers. I built the first rendition of the web-app. (meteor, google apis)"
-	},
+	}, 
+  {
+    name: 'CLTR',
+    url: 'https://github.com/btroo/CLTR',
+    description: 'Actiony-puzzley game I couldn\'t finish because game dev causes carpal tunnel... (libgdx, java) (WIP).'
+  },
+  {
+    name: 'Slacking',
+    url: 'https://github.com/btroo/slacking',
+    description: 'Slack integration to show you a random HN article'
+  },
+  
 	{
 		name: "Akin Programming Language",
 		url: "https://github.com/btroo/Akin",
