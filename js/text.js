@@ -121,7 +121,7 @@ var text = {
     name: 'HelloToken',
     url: 'http://hellotoken.com',
     description: 'Designed the website and working on building out backend infrastructure. (rails, js)'
-  }
+  },
 	{
 		name: "Bayesian Classification of Tweets During Natural Disasters",
 		url: "https://www.asis.org/asist2014/proceedings/submissions/posters/349poster.pdf",
