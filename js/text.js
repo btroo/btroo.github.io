@@ -25,7 +25,7 @@ var text = {
 	brandon: "Stanford '19. I like to code. I do a lot of JS and web dev. I do some NLP/ML research. \n"
          + "I try to learn new stuff as much as possible. dancing is fun. I enjoy freestyling.\n" 
          + "I pop and wave but try to incorporate other styles (i.e. bboy, turf, krump). \n"
-         + "I like to write too. Check out my <a href='http://blog.brandontruong.com'>blog</a>!\n"
+         + "I like to write too. Check out my <a href='http://brandontruong.com'>blog</a>!\n"
          + "Check out my work or projects for more info on tech stuff.\n",
 	workObj: [
     {
