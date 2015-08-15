@@ -22,7 +22,7 @@ var text = {
 		+ "\tcontact: say hey\n"
 	},
 	notRight: "Oops, that's not a valid command... try '?'\n",
-	brandon: "Stanford '19. I like to code. I do a lot of JS and web dev. I do some NLP/ML research. \n"
+	brandon: "Stanford '20 (on a gap year). I like to code. I do a lot of JS and web dev. I do some NLP/ML research. \n"
          + "I try to learn new stuff as much as possible. dancing is fun. I enjoy freestyling.\n" 
          + "I pop and wave but try to incorporate other styles (i.e. bboy, turf, krump). \n"
          + "I like to write too. Check out my <a href='http://brandontruong.com'>blog</a>!\n"

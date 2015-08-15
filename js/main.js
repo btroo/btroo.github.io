@@ -1,5 +1,5 @@
 $(function () {
-  var jqconsole = $('#console').jqconsole('Hi, I\'m Brandon\nEnter \'?\' if you don\'t know what to do.\n', '> ');
+  var jqconsole = $('#console').jqconsole('Hi, I\'m Brandon\nEnter \'brandon\' to get started. Then try \'?\' for more :)\n', '> ');
   
   function process(input){
     var parsed = input.split(" ");
