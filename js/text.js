@@ -26,9 +26,15 @@ var text = {
          + "@Stanford\n"
          + "Dallas --> SF | Boston\n"
          + "Check out my <a href='http://brandontruong.com'>blog</a>!\n"
-         + "FOLLOW <a href='https://www.instagram.com/btrooo/'>MY INSTAGRAM</a>!\n\n"
-         + "Check out my work or projects for more info on tech stuff.\n",
+         + "Follow me on <a href='https://www.instagram.com/btrooo/'>instagram</a>!\n\n"
+         + "Check out my 'work' or 'projects' for more info on tech stuff.\n",
 	workObj: [
+    {
+      name: "Software Engineer (contractor)",
+      company: "Gigster",
+      url: "https://www.gigster.com",
+      time: "November 2016 -> Present"
+    },
     {
       name: "Software Engineering (intern)",
       company: "Udacity",
@@ -93,6 +99,17 @@ var text = {
 		return output;
 	},
 	positionsObj: [
+
+    {
+      position: "Organizer",
+      organization: "TreeHacks",
+      url: "https://www.treehacks.com/"
+    },
+    {
+      position: "Officer",
+      organization: "Stanford ACM",
+      url: "http://stanfordacm.com/"
+    },
     {
       position: "President",
       organization: "RESOLV",
