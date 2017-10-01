@@ -30,6 +30,12 @@ var text = {
          + "Check out my 'work' or 'projects' for more info on tech stuff.\n",
 	workObj: [
     {
+      name: "Software Engineer (intern)",
+      company: "BuzzFeed",
+      url: "https://www.buzzfeed.com",
+      time: "November 2016 -> Present"
+    },
+    {
       name: "Software Engineer (contractor)",
       company: "Gigster",
       url: "https://www.gigster.com",
@@ -99,7 +105,11 @@ var text = {
 		return output;
 	},
 	positionsObj: [
-
+    {
+      position: "Director of Technology",
+      organization: "ASES",
+      url: "https://www.ases.stanford.edu/"
+    },
     {
       position: "Organizer",
       organization: "TreeHacks",
