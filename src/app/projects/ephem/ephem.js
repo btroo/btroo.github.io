@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Badges from '../../badges/badges.js';
 import Image from '../../image';
 import Contact from '../../contact';
 

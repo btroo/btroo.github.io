@@ -59,9 +59,6 @@ class Primary extends React.Component {
             see my  <a href="https://www.instagram.com/btrooo/">instagram</a>, <a href="https://github.com/btroo">github</a>, <a href="https://www.linkedin.com/in/btroo/">linkedin</a>.
           </p>
           <p>
-            this site is very much so in the works.
-          </p>
-          <p>
             <Contact />
           </p>
           {this.state.showPortfolio ?

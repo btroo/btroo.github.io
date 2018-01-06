@@ -31,7 +31,7 @@ module.exports = {
       }
     }, {
       test: /\.(jpe?g|gif|png|svg)$/,
-      loader: 'file-loader?publicPath=../&name=./images/[hash].[ext]',
+      loader: 'file-loader?publicPath=./&name=./images/[hash].[ext]',
     }]
   },
   plugins: [

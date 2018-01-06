@@ -4,8 +4,8 @@ import Image from '../../image';
 import Contact from '../../contact';
 
 import mock1 from './profileReg.jpg';
-import mock2 from './listicle.png';
-import mock3 from './realProfile.png';
+import mock2 from './listicle.jpg';
+import mock3 from './realProfile.jpg';
 
 export default class NomzPlz extends React.Component {
   render() {
