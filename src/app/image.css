@@ -1,0 +1,17 @@
+.portfolio-image {
+  max-width: 100%;
+}
+
+@media (max-width: 800px) {
+  width: 100%;
+  max-width: 100%;
+}
+
+.portfolio-image img {
+  max-width: 100%;
+  margin: 2px 0px;
+}
+
+.portfolio-image img.small {
+  max-width: 700px;
+}

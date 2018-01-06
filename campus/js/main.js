@@ -1,1 +1,0 @@
-$('section').height($(window).height());
