@@ -7,6 +7,7 @@ import NomzPlz from './projects/nomz/nomz.js';
 import Udacity from './projects/udacity/udacity.js';
 import Ephem from './projects/ephem/ephem.js';
 import ArtX from './projects/artx/artx.js';
+import HelloToken from './projects/hellotoken/hellotoken.js';
 
 class Preview extends React.Component {
   render() {
@@ -55,6 +56,9 @@ export default class Portfolio extends React.Component {
       'udacity': {
         desc: 'engineering, design',
       },
+      'hellotoken': {
+        desc: 'engineering, design',
+      },
       'divider2': {
         title: 'media & art'
       },
@@ -88,7 +92,9 @@ export default class Portfolio extends React.Component {
       } else {
         worksList.push((
           <div>
-            <a className="work-link" href={`#${work}`}>{work}</a>: {works[work].desc}
+            <a className="work-link" href={`#${work}`}>
+              {work}
+            </a> : {works[work].desc}
           </div>
         ));
       }
@@ -110,6 +116,7 @@ export default class Portfolio extends React.Component {
         <NomzPlz />
         <ArtX />
         <Udacity />
+        <HelloToken />
         <Ephem />
         <LinkDescription
           id="sleep is for the weak"

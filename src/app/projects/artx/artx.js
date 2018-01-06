@@ -8,7 +8,7 @@ import img1 from './site.png';
 export default class ArtX extends React.Component {
   render() {
     return (
-      <div id="ArtX">
+      <div id="artx">
         <h3>artx (2018) (present)</h3>
         <h4 className="subtitle">bridging disciplines</h4>
         <p>

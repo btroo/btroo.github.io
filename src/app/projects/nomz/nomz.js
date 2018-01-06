@@ -10,7 +10,7 @@ import mock3 from './realProfile.jpg';
 export default class NomzPlz extends React.Component {
   render() {
     return (
-      <div id="NomzPlz">
+      <div id="nomzplz">
         <h3>nomzplz (2017)</h3>
         <h4 className="subtitle">a better food discovery</h4>
         <p>involvement: design, engineering</p>

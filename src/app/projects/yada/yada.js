@@ -9,7 +9,7 @@ import chatImg from './chat.png';
 export default class Yada extends React.Component {
   render() {
     return (
-      <div id="Yada">
+      <div id="yada">
         <h3>yada (2017-2018) (current)</h3>
         <h4 className="subtitle">a scalable workforce at your fingertips.</h4>
         <p>heading up design & engineering.</p>
