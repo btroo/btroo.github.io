@@ -38,7 +38,7 @@ class Primary extends React.Component {
     );
 
     return (
-      <div className="container">
+      <div className="container primary">
         <div id="toast"></div>
         <a id="btt" href="#main-portfolio">back to top</a>
         <div className="content">

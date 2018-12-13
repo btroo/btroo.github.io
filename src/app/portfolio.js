@@ -6,6 +6,7 @@ import Yada from './projects/yada/yada.js';
 import NomzPlz from './projects/nomz/nomz.js';
 import Udacity from './projects/udacity/udacity.js';
 import Ephem from './projects/ephem/ephem.js';
+import Fill from './projects/fill/fill.js';
 import ArtX from './projects/artx/artx.js';
 import HelloToken from './projects/hellotoken/hellotoken.js';
 
@@ -62,6 +63,9 @@ export default class Portfolio extends React.Component {
       'divider2': {
         title: 'media & art'
       },
+      'fill': {
+        desc: 'design, fashion',
+      },
       'ephem': {
         desc: 'design, fashion, manufacturing/distribution',
       },
@@ -117,6 +121,7 @@ export default class Portfolio extends React.Component {
         <ArtX />
         <Udacity />
         <HelloToken />
+        <Fill />
         <Ephem />
         <LinkDescription
           id="sleep is for the weak"

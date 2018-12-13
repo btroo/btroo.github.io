@@ -6,7 +6,13 @@
 
 @font-face {
   font-family: "Gotham";
-  src: url("../assets/fonts/GothamHTF-Black.otf");
+  src: url("../assets/fonts/GothamHTF-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../assets/fonts/GothamHTF-Medium.otf");
   font-weight: 500;
 }
 
@@ -26,7 +32,8 @@ html {
   margin: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
-  font-family: sans-serif;
+  font-family: "Gotham", sans-serif;
+  font-weight: 300;
   /*font-family: 'Bellefair', serif;*/
   /*font-family: 'Cormorant Garamond', serif;*/
 }
@@ -52,6 +59,7 @@ h1, h2, h3, h4 {
   margin: 1.0605em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
+  font-weight: 500;
 }
 
 .neighbor-header {
@@ -63,7 +71,6 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  margin-top: 0;
   font-size: 3.157em;
 }
 
@@ -88,7 +95,7 @@ small, .font_small {
 }
 
 a {
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   color: black;
 }
@@ -104,6 +111,7 @@ a:hover {
 
 p, li, a {
   font-size: 1em;
+  line-height: 1.5em;
 }
 
 #toast {
@@ -121,6 +129,8 @@ p, li, a {
 #btt {
   width: 100%;
   padding: 2em;
+  top: 0;
+  margin-top: 0;
   position: fixed;
 
   text-align: center;
